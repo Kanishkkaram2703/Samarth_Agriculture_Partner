@@ -15,15 +15,19 @@ Farmers and policymakers often lack integrated access to data-driven insights on
 
 ## Project Structure
 
-samarth_qna/
+```
+samarth_qna 
 │
-├── app.py   # Flask backend
-├── templates/index.html   # Frontend
-├── static/style.css   # Styling
-├── datasets/   # CSV data
-└── requirements.txt   # Dependencies
+├── app.py                 # Flask backend
+├── templates/
+│   └── index.html         # Frontend
+├── static/
+│   └── style.css          # Styling
+├── datasets/              # CSV data
+└── requirements.txt       # Dependencies
+```
 
-## 🚀 Setup Instructions
+## Setup Instructions
 1. Clone or extract the project to `D:\Internship_Project\samarth_qna`
 2. Run `pip install -r requirements.txt`
 3. Create `.env` file with:
@@ -35,5 +39,6 @@ samarth_qna/
 - Integrate real IMD APIs
 - Add data visualization dashboards
 - Deploy on Render or Streamlit Cloud
+
 
 Made by Kanishk 🤍🤍
