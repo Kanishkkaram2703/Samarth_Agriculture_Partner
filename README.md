@@ -1,5 +1,5 @@
 # 🌾 Project Samarth – AI Q&A Platform for Agriculture & Climate Insights
-Here is the project link checkout: https://samarth-agriculture-partner.onrender.com
+
 ## Objective
 To create an intelligent Q&A platform that helps users query agricultural and climate data using  local datasets.
 
@@ -42,4 +42,5 @@ samarth_qna
 
 
 Made by Kanishk 🤍🤍
+
 
