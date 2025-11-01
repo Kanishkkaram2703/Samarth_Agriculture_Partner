@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: samarth-ai
+    env: python
+    buildCommand: ""
+    startCommand: python app.py
+    envVars:
+      - key: GOOGLE_API_KEY
+        fromSecret: google_api_key
+      - key: SEARCH_ENGINE_ID
+        fromSecret: search_engine_id
+      - key: OPENAI_API_KEY
+        fromSecret: openai_api_key
