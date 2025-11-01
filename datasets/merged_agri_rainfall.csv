@@ -1,0 +1,7 @@
+Sr._No.,Crops,Area,Production,Yield,State_x,Year,Actual,Forecast,Remark,State_y,Rainfall_Difference,Yield_Efficiency
+1.0,Groundnut,1694.42,4642.46,2739.85,Gujarat,2024,108,106,Accurate,All-India,2,1.62
+2.0,Castor seed,724.77,1551.72,2140.99,Gujarat,2024,108,106,Accurate,All-India,2,2.95
+3.0,Sesamum,163.31,130.71,800.42,Gujarat,2024,108,106,Accurate,All-India,2,4.9
+4.0,Rapeseed & Mustard,277.35,554.53,1999.41,Gujarat,2024,108,106,Accurate,All-India,2,7.21
+5.0,Soyabean,265.74,488.3,1837.52,Gujarat,2024,108,106,Accurate,All-India,2,6.91
+6.0,Other Oilseeds,1.36,0.9,664.47,Gujarat,2024,108,106,Accurate,All-India,2,488.58
