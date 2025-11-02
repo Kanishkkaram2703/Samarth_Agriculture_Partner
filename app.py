@@ -466,14 +466,15 @@ if __name__ == "__main__":
     print("\n" + "="*50)
     print("🌾 Project Samarth - Starting Server")
     print("="*50)
-    print(f"✓ Rainfall data: {len(rainfall_df) if rainfall_df is not None else 0} rows")
-    print(f"✓ Agriculture data: {len(agriculture_df) if agriculture_df is not None else 0} rows")
+    print(f"✓ Rainfall data: {len(rainfall_df) if 'rainfall_df' in globals() and rainfall_df is not None else 0} rows")
+    print(f"✓ Agriculture data: {len(agriculture_df) if 'agriculture_df' in globals() and agriculture_df is not None else 0} rows")
     print(f"✓ Google API: {'Configured' if GOOGLE_API_KEY else 'Not configured'}")
     print(f"✓ OpenAI API: {'Configured' if OPENAI_API_KEY else 'Not configured'}")
     print("="*50)
-    print("🚀 Server running at: http://127.0.0.1:5000")
+    print(f"Server running on port: {environ.get('PORT', 5000)}")
     print("="*50 + "\n")
-    
 
-    app.run(host='0.0.0.0', port=int(environ.get('PORT', 5000)))
+    
+    app.run(host='0.0.0.0', port=int(environ.get('PORT', 5000))))
+
 
